@@ -1,0 +1,24 @@
+.icon-button {
+  height: 50px;
+  width: 50px;
+  border: 2px solid #181819;
+  border-radius: 8px;
+  color: white;
+  align-items: center;
+  text-align: center;
+  background-color: #121214;
+}
+
+.icon-button .icon {
+  display: inline-flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  background-color: transparent;
+}
+
+.icon-button .icon svg {
+  color: white;
+  background-color: transparent;
+}

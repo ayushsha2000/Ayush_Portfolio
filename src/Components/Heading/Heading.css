@@ -1,0 +1,85 @@
+.heading {
+  display: flex;
+  color: white;
+  box-sizing: border-box;
+}
+
+.heading img {
+  height: 300px;
+  width: 300px;
+}
+
+.heading .heading-profile {
+  flex: 1;
+  background-color: #121214;
+  border-radius: 24px;
+  
+  text-align: center;
+  padding: 20px 0px;
+  height: 70vh;
+}
+
+.heading .heading-profile img {
+  background-color: transparent;
+}
+
+.heading .heading-profile-info {
+  background-color: transparent;
+}
+
+.heading .heading-profile h2 {
+  background-color: transparent;
+  font-size: 36px;
+}
+
+.heading .heading-profile p {
+  background-color: transparent;
+  color: #9f9f9f;
+}
+
+.heading .heading-profile-social {
+  background-color: transparent;
+  display: flex;
+}
+
+.heading .heading-profile-description {
+  display: flex;
+  flex: 2;
+  flex-direction: column;
+}
+
+.heading .heading-profile-description .heading-profile-personal-info {
+  background-color: #121214;
+  border-radius: 24px;
+  padding: 20px 0px;
+  width: 56vw;
+}
+
+.heading .heading-profile-description .heading-profile-personal-info p {
+  color: #9f9f9f;
+  background-color: transparent;
+}
+
+.heading .heading-profile-description .heading-profile-personal-info h2 {
+  background-color: transparent;
+  font-size: 32px;
+}
+
+.heading .heading-profile-description .heading-profile-personal-info span {
+  background-color: transparent;
+  margin: 0;
+  padding-left: 0;
+}
+
+.heading .heading-past-companies {
+  background-color: #121214;
+  border-radius: 24px;
+  padding: 20px 0px;
+  width: 56vw;
+}
+
+.heading .heading-past-companies h2 {
+  background-color: transparent;
+  font-size: 28px;
+  font-weight: 400;
+}

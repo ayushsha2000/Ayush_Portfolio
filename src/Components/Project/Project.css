@@ -1,0 +1,79 @@
+.project {
+  display: flex;
+  color: white;
+  flex-direction: column;
+  background-color: #121214;
+  border-radius: 24px;
+  margin: 20px 0px;
+  padding: 20px 0px;
+}
+
+.project .project-heading {
+  text-align: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.project .project-heading p,
+.project .project-heading h2 {
+  background-color: transparent;
+  text-align: center;
+  align-items: center;
+}
+
+.project .project-heading h2 {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.project .project-heading p {
+  width: 700px;
+  margin: 0 auto;
+  color: #9f9f9f;
+}
+
+.project .project-description {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 10px;
+  background-color: transparent;
+}
+
+.project .project-description .project-description-child {
+    background-color: transparent;
+    border: 1px solid #181819;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;
+}
+
+.project .project-description .project-description-child img {
+  background-color: transparent;
+  width: 100%;
+  object-fit: cover;
+}
+
+.project .project-description .project-description-child .project-description-child-contents{ 
+   text-align: start;
+   padding: 0px;
+   margin: 0px;
+   background-color: transparent;
+}
+
+.project .project-description .project-description-child p {
+  background-color: transparent;
+}
+
+.project .project-description .project-description-child .project-description-title{
+  color: #77777c;
+}
+
+.project .project-description .project-description-child .project-description-subtitle{
+  color: #cccccc;
+  font-weight: 500;
+}
+

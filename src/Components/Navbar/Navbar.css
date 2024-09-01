@@ -1,0 +1,23 @@
+.navbar{ 
+    display: flex;
+    color: #CECECE;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .navbar-left{ 
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.navbar .navbar-menu{ 
+    list-style: none;
+    display: flex;
+}
+
+.navbar-menu li:hover{ 
+    color: #eb5d3b;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
